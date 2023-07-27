@@ -15,7 +15,7 @@ import org.ksoap2.serialization.SoapSerializationEnvelope;
 import org.ksoap2.transport.HttpTransportSE;
 
 public class LessonOneActivity extends AppCompatActivity {
-    private static final String NAMESPACE = "http://www.w3schools.com/xml/";
+    private static final String NAMESPACE = "https://www.w3schools.com/xml/";
     private static final String URL = "https://www.w3schools.com/xml/tempconvert.asmx";
     private static final String METHOD_NAME_F_TO_C = "FahrenheitToCelsius";
     private static final String METHOD_NAME_C_TO_F = "CelsiusToFahrenheit";
